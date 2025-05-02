@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+#PageContent h2,#PageContent h3 {
+   text-align: left; 
+   color: black;
+   margin-bottom: 1rem;
+   font-family: "Roboto Condensed",serif;
+
+}
+
+#PageContent p, #PageContent li{
+   font-family: "Raleway",serif;
+}
+#PageContent h2,#PageContent h3{
+    font-weight: bold;
+}
+#ContactInfo {
+    float:right;
+    text-align:right;
+}
+#Education, #Skills,#Project{
+    margin-bottom: 1rem;
+    clear: both;
+}
+#Project h2{
+    margin-bottom:1.5rem;
+}
+#Project h3{
+    margin-top: 1rem;
+}
+
+ #Education li{
+        list-style-type: circle;
+        margin-left: 2rem;
+        font-size: 1.4rem;
+    }
+
+    #Project li {
+        list-style-type: circle;
+        margin-left: 2rem;
+        font-size:1.4rem;
+    }
+
+#Skills li{
+    list-style-type: circle;
+    margin-left: 2rem;
+    font-size:1.4rem;
+}
