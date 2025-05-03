@@ -1,48 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-#PageContent h2,#PageContent h3 {
-   text-align: left; 
-   color: black;
-   margin-bottom: 1rem;
-   font-family: "Roboto Condensed",serif;
-
+#PageContent {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
 }
 
-#PageContent p, #PageContent li{
-   font-family: "Raleway",serif;
-}
-#PageContent h2,#PageContent h3{
+/* Typography */
+#PageContent h2, #PageContent h3 {
+    text-align: left; 
+    color: black;
+    margin-bottom: 1rem;
+    font-family: "Roboto Condensed", serif;
     font-weight: bold;
 }
-#ContactInfo {
-    float:right;
-    text-align:right;
+
+#PageContent p, #PageContent li {
+    font-family: "Raleway", serif;
 }
-#Education, #Skills,#Project{
-    margin-bottom: 1rem;
+
+/* Contact Info Styling */
+#ContactInfo {
+    text-align: left;
+    margin-bottom: 2.5rem; /* Space below contact section */
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-left: 4px solid #0d6efd;
+    border-radius: 8px;
+}
+
+/* Section spacing */
+#Education, #Skills, #Project {
+    margin-bottom: 2rem;
     clear: both;
 }
-#Project h2{
-    margin-bottom:1.5rem;
+
+/* Project Headings */
+#Project h2 {
+    margin-bottom: 1.5rem;
 }
-#Project h3{
+
+#Project h3 {
     margin-top: 1rem;
 }
 
- #Education li{
-        list-style-type: circle;
-        margin-left: 2rem;
-        font-size: 1.4rem;
-    }
-
-    #Project li {
-        list-style-type: circle;
-        margin-left: 2rem;
-        font-size:1.4rem;
-    }
-
-#Skills li{
+/* Lists */
+#Education li,
+#Project li,
+#Skills li {
     list-style-type: circle;
     margin-left: 2rem;
-    font-size:1.4rem;
+    font-size: 1.4rem;
 }
