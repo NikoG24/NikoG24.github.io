@@ -43,3 +43,46 @@ footer {
     background-color: #222;
     color: #fff;
 }
+
+/* Navbar styling */
+#NavBar {
+    background-color: #003366; /* Dark background for the navbar */
+    padding: 20px;
+    text-align: center;
+}
+
+#NavBar h1 {
+    color: white; /* White text for the header */
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+}
+
+#NavBar nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+#NavBar nav ul li {
+    display: inline-block; /* Display items in a row */
+    margin-right: 20px; /* Spacing between navbar items */
+}
+
+#NavBar nav ul li a {
+    color: white; /* White text for the links */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    padding: 8px 12px; /* Add padding around the links */
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#NavBar nav ul li a:hover {
+    background-color: #3498db; /* Highlight on hover */
+    color: white; /* Keep text white on hover */
+}
+
+#NavBar nav ul li a:active {
+    background-color: #2980b9; /* Darker background when clicked */
+}
+
